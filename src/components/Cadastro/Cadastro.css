@@ -1,0 +1,56 @@
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px 2px rgba(41, 46, 51, 0.1);
+    border-radius: 4px;
+    width: 525px;
+    height: 677px;
+}
+
+.inputFieldCadastro{
+    width: 300px;
+    text-align: center;
+    margin-top: 32px;
+}
+.inputFieldCadastro span{
+    color: var(--azul-violeta);
+}
+
+.cadastroInfo p {
+    color: var(--dark-aux3);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.btnBack{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 16px;
+    color: var(--azul-violeta);
+    transition: .7s;
+}
+.btnBack:hover{
+    opacity: 0.5;
+}
+.btnBack img{
+    width: 15px;
+}
+
+.iconPasswordCadastro{
+    position: relative;
+    left: 270px;
+    bottom: 30px;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+}
+.iconPasswordCadastro:hover{
+    opacity: 0.5;
+}

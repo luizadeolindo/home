@@ -1,0 +1,35 @@
+.formTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 86px;
+}
+
+.formTitle h2{
+    font-size: 25px;
+    color: var(--azul-oceano);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.formTitle h2::after {
+    content: "";
+    display: block;
+    width: 94px;
+    height: 4px;
+    background: linear-gradient(270.01deg, #4E47C2 -0.01%, rgba(78, 71, 194, 0) 237.73%);
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.formTitle p {
+    color: var(--dark-aux3);
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 32px;
+}
